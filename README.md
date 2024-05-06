@@ -5,8 +5,8 @@ Database System For An E-Library Application
 * Project's Objectives
 * Features
 * Limitations
-* ERD diagram
-* Populating the database
+* ERD Diagram
+* Populating the Database
 * Retrieve Data
 * Installation
 
@@ -28,10 +28,10 @@ The e-library application oversees multiple libraries, each housing a diverse co
 * Automatic Book Returns: Books are automatically returned when they exceed the due date.
 * Hold Expiration: If a user doesn't borrow a held book within one week, the hold is released for other users to borrow.
 
-# ER Diagram:
+# ERD Diagram:
 ![ERD E-Library-DB](ERD/ERD.png)
 
-# Populating the database
+# Populating the Database
 Populating the database can be achieved by generating dummy data that reflects real-world scenarios. This script demonstrates how to create realistic data for users, libraries, books, loans, and bookings. The script utilizes the Faker library to generate random yet believable information. The data is then exported to individual CSV files, which are subsequently imported into the PostgreSQL database using the copy_expert method for efficiency. This approach allows for easy population of the database for testing and analysis purposes.
 
 # Retrieve Data
